@@ -1,0 +1,11 @@
+.HomePage > *{
+    margin-left: 20px;
+}
+
+.HomePage h6 {
+    padding-top: 20px;
+}
+
+.fgrApiLink{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,4 @@
+{
+    "config":"this is the test config file, to see these values change NODE_ENV to equal test",
+    "tableEnd":"test"
+}
