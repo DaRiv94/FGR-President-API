@@ -1,7 +1,7 @@
 {
   "name": "fgr-presidents-api",
   "version": "1.0.0",
-  "description": "Example API that uses Azure Table Storage",
+  "description": "FGR President API is an example api that uses Microsoft Azure Table Storage",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
