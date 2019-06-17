@@ -11,7 +11,7 @@
     "testonce":"jest --detectOpenHandles"
   },
   "engines": {
-    "node": "11.10.0"
+    "node": "10.16.0"
   },
   "author": "Frankie G Riviera",
   "license": "ISC",
