@@ -13,7 +13,7 @@ app.use(express.static(".")); //this is to render the static index.html page at 
 // parse application/json
 app.use(bodyParser.json());
 
-require("./db/createTables")();//Creates Database if not already created!
+//require("./db/createTables")();//Creates Database if not already created!
 
 
 app.get("/", (req, res) => {

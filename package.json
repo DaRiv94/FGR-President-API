@@ -7,10 +7,11 @@
     "start": "node index.js",
     "app": "nodemon index.js",
     "test": "jest --watchAll --detectOpenHandles",
-    "test-check": "jest --verbose --coverage"
+    "test-check": "jest --verbose --coverage",
+    "testonce":"jest --detectOpenHandles"
   },
-  "engines":{
-    "node":"11.10.0"
+  "engines": {
+    "node": "11.10.0"
   },
   "author": "Frankie G Riviera",
   "license": "ISC",

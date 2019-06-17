@@ -8,8 +8,19 @@ module.exports = function() {
   //AZURE_STORAGE_CONNECTION_STRING
   var tableService = azure.createTableService();
 
+  // //CREATE A TABLE IF NOT EXISTS
+  // tableService.createTableIfNotExists(`presidents${config.get('tableEnd')}`, function(
+  //   error,
+  //   result,
+  //   response
+  // ) {
+  //   if (!error) {
+  //   }
+  // });
+
+
   //CREATE A TABLE IF NOT EXISTS
-  tableService.createTableIfNotExists(`presidents${config.get('tableEnd')}`, function(
+  tableService.createTableIfNotExists(`presidentstest`, function(
     error,
     result,
     response
@@ -17,4 +28,6 @@ module.exports = function() {
     if (!error) {
     }
   });
+
+
 };

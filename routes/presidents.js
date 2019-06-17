@@ -128,7 +128,7 @@ function validatePresident(president) {
       .max(50)
       .required(),
     party: Joi.string()
-      .min(5)
+      .min(4)
       .max(50)
       .required()
   };
