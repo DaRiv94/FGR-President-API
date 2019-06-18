@@ -58,9 +58,9 @@ router.put("/:rowkey", async (req, res) => {
     const president = await getPresidentByRowKey(req.params.rowkey);
     if (!president)
       return res.status(400).send("No President was found with that RowKey");
-
+    
     var pastpresident = await findPresidentByName(req.body.name);
-    if (pastpresident)
+    if (pastpresident.RowKey !=req.params.rowkey)
       return res.status(400).send("President with that name already exists.");
 
     if (president.name === "Abraham Lincoln")
