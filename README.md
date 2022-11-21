@@ -3,7 +3,7 @@
 
 FGR President API is an example api that uses Microsoft Azure Table Storage
 
-This application is currently hosted [Here](https://fgr-president-api.herokuapp.com/)
+<!-- This application is currently hosted [Here](https://fgr-president-api.herokuapp.com/) -->
 
 ### Shortcuts
 * [Key Features](https://github.com/DaRiv94/FGR-President-API#Key-Features)
@@ -33,7 +33,7 @@ This application is currently hosted [Here](https://fgr-president-api.herokuapp.
 
 ## Links
 
-Currently FGR President API is hosted [Here](https://fgr-president-api.herokuapp.com/)
+<!-- Currently FGR President API is hosted [Here](https://fgr-president-api.herokuapp.com/) -->
 
 <!-- FGR API Viewer is a FGR Application built to demonstrate how FGR API endpoints work. check out [FGR API Viewer](https://fgr-api-viewer.surge.sh/) -->
 
